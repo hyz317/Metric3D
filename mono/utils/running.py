@@ -1,7 +1,7 @@
 import os
 import torch
 import torch.nn as nn
-from mono.utils.comm import main_process
+from .comm import main_process
 import copy
 import inspect
 import logging
